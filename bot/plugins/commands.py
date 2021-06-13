@@ -30,7 +30,7 @@ async def start(bot, update):
             await bot.send_document(
                 chat_id=update.chat.id,
                 document = file_id,
-                caption = f"<code>{file_name} \n {file_size}</code>",
+                caption = f"<code>{file_name}-@srsuggestionsofficial.mkv</code> \n <b>Group🔻 \n @srsuggestionsofficial \n Movie Channel🔻 \n @srsuggestionsmc \n Series Channel🔻 \n @srsuggestionsseries</b>",
                 parse_mode="html",
                 reply_to_message_id=update.message_id,
                 reply_markup=InlineKeyboardMarkup(
@@ -38,7 +38,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    'Join ', url="https://t.me/srsuggestionsmc"
+                                    '⭕Join Our Channel™️⭕', url="https://t.me/srsuggestionsmc"
                                 )
                         ]
                     ]
