@@ -30,7 +30,7 @@ async def start(bot, update):
             await bot.send_document(
                 chat_id=update.chat.id,
                 document = file_id,
-                caption = f"<code>{file_name}-@srsuggestionsofficial.mkv</code> \n <b>Group🔻 \n @srsuggestionsofficial \n Movie Channel🔻 \n @srsuggestionsmc \n Series Channel🔻 \n @srsuggestionsseries</b>",
+                caption = f"<code>{file_name}-@srsuggestionsofficial.mkv</code> \n <b>Official Group🔻 \n @srsuggestionsofficial \n Movie Channel🔻 \n @srsuggestionsmc \n Series Channel🔻 \n @srsuggestionsseries</b>",
                 parse_mode="html",
                 reply_to_message_id=update.message_id,
                 reply_markup=InlineKeyboardMarkup(
@@ -38,7 +38,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    '⭕Join Our Channel™️⭕', url="https://t.me/srsuggestionsmc"
+                                    '⭕ Join Our Channel™️ ⭕', url="https://t.me/srsuggestionsmc"
                                 )
                         ]
                     ]
@@ -57,7 +57,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    'Developers', url="https://t.me/CrazyBotsz"
+                                    '⭕ Join Our Channel™️ ⭕', url="https://t.me/srsuggestionsmc"
                                 )
                         ]
                     ]
@@ -76,7 +76,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    'Developers', url="https://t.me/CrazyBotsz"
+                                    '⭕Join Our Channel™️ ⭕', url="https://t.me/srsuggestionsmc"
                                 )
                         ]
                     ]
@@ -89,10 +89,10 @@ async def start(bot, update):
         return
 
     buttons = [[
-        InlineKeyboardButton('Developers', url='https://t.me/CrazyBotsz'),
+        InlineKeyboardButton('Developers', url='https://t.me/srsuggestionsmc'),
         InlineKeyboardButton('Source Code 🧾', url ='https://github.com/AlbertEinsteinTG/Adv-Auto-Filter-Bot-V2')
     ],[
-        InlineKeyboardButton('Support 🛠', url='https://t.me/CrazyBotszGrp')
+        InlineKeyboardButton('Support 🛠', url='https://t.me/SULTHANBOY10')
     ],[
         InlineKeyboardButton('Help ⚙', callback_data="help")
     ]]
