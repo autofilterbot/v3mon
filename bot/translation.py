@@ -5,9 +5,9 @@
 class Translation(object):
     
     START_TEXT = """<b>Bruh {}!!</b>
-<i>Am Just A Advance Auto Filter Bot....😉
+<i>ARAKKAL SULTHAN BOY....😉
 
-Just Add Me To Your Group And Channel And Connect Them And See My Pevers 🔥🔥😝
+Numma pever aane 🔥🔥😝
 
 For More Details Click Help Button Below..
 @srsuggestionsofficial 
