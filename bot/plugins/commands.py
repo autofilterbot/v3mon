@@ -38,8 +38,10 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    '⭕ Join Our Channel™️ ⭕', url="https://t.me/srsuggestionsmc"
+                                    '⭕ JOIN OUR CHANNEL™️ ⭕', url="https://t.me/srsuggestionsmc"
                                 )
+                            [InlineKeyboardButton] ('THANKZ', url="https://t.me/SULTHANBOY10"
+                              
                         ]
                     ]
                 )
@@ -57,7 +59,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    '⭕ Join Our Channel™️ ⭕', url="https://t.me/srsuggestionsmc"
+                                    '⭕ JOIN OUR CHANNEL™️ ⭕', url="https://t.me/srsuggestionsmc"
                                 )
                         ]
                     ]
@@ -76,7 +78,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    '⭕Join Our Channel™️ ⭕', url="https://t.me/srsuggestionsmc"
+                                    '⭕ JOIN OUR CHANNEL™️ ⭕', url="https://t.me/srsuggestionsmc"
                                 )
                         ]
                     ]
